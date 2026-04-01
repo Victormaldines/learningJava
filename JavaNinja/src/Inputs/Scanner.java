@@ -1,8 +1,6 @@
-package Condicoes;
+package Inputs;
 
-import java.util.Scanner;
-
-public class ScannerDoUsuario {
+public class Scanner {
 
     public static void main(String[] args) {
 
@@ -11,7 +9,7 @@ public class ScannerDoUsuario {
          * Objetivo: o usuário vai criar um ninja e o sistema deverá validar os dados
          * */
 
-        Scanner sc = new Scanner(System.in);
+        java.util.Scanner sc = new java.util.Scanner(System.in);
 
         // Receber o nome do ninja
         System.out.println("Type the NAME of the ninja");

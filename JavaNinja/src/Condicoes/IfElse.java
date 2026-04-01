@@ -12,12 +12,12 @@ public class IfElse {
         String name = "Naruto";
         String rank;
         byte age = 15; //max 255
-        short missionsCompleted = 20;
+        short missionsCompleted = 50;
         boolean isHokage = false;
 
-        if (missionsCompleted >= 10 && age > 15) { // T ^ F
+        if (missionsCompleted >= 20 && age > 15) { // T ^ F
             System.out.println("Rank: Chunnin");
-        } else if (missionsCompleted >= 20) {
+        } else if (missionsCompleted >= 10) {
             System.out.println("Rank: Jounin");
         } else {
             System.out.println("Rank: Gennin");
